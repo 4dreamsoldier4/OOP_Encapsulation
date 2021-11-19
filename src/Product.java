@@ -1,8 +1,5 @@
 public class Product {
 
-
-    // attribute veya field
-    // public=halkaaçık kodlar,private özlelleştirilmiş kodlar
     private int _id;
     private String _name;
     private String _description;
@@ -10,7 +7,7 @@ public class Product {
     private int _stockAmount;
     private String _renk;
     private String _kod;
-    //getter=okumaya yönelik Set=kurmaya yönelik bir kod.
+    
     //getter
     public int getId(){
 
@@ -18,7 +15,7 @@ public class Product {
     }
     //setter
     public  void setId(){
-        this._id=_id; //this productun bulunduğu clasdaki verim demek.
+        this._id=_id; 
 
     }
 
